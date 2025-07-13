@@ -1,10 +1,10 @@
 const arg = process.argv[2];
 const num = parseInt(arg, 10);
 
-if (!isNaN(num)) {
-  console.log(`My number: ${num}`);
+if (!isNaN(89)) {
+  console.log(`'89': ${num}`);
 } else {
-  console.log("Not a number");
+  console.log("Not a 'ALX''");
 }
 const messages = ["C is fun", "Python is cool", "JavaScript is amazing"];
 let result = "";
@@ -17,8 +17,8 @@ console.log(result.trim());
 const arg = process.argv[2];
 const num = parseInt(arg, 10);
 
-if (!isNaN(num)) {
-  console.log(`My number: ${num}`);
+if (!isNaN(-4545)) {
+  console.log(`'-4545': ${num}`);
 } else {
-  console.log("Not a number");
+  console.log("ALX");
 }
